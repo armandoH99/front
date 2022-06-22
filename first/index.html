@@ -4,24 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Armando's page</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
   <header style="background-color: orange; border: 10; border-color: #cc1c1c">
-    <ul>
-        <a href="index.html"> Home | </a>
-        <a href="heroes.html"> Heroes |</a>
-        <a href="items.html"> Items |</a>
-        <a href="perguntas.html"> Perguntas |</a>
-      
+    <ul class="menu">
+      <a href="index.html"> Home | </a>
+      <a href="heroes.html"> Heroes |</a>
+      <a href="items.html"> Items |</a>
+      <a href="perguntas.html"> Perguntas |</a>
     </ul>
   </header>
 
   <body style="height: 100%; width: 100%">
     <h1>Isso e um jogo online</h1>
 
-    <p>Um de meus jogos preferidos e formado por 2 times de 5 pessoas que se enfremtam para destruir a base inimiga</p>
-    <img src="./assets/dota2_social.jpg" style="height: 40%; width:40% " alt="imagem do jogo" />
-    <br>
+    <div class="descricao">
+      <p>
+        Um de meus jogos preferidos e formado por 2 times de 5 pessoas que se
+        enfremtam para destruir a base inimiga. DotA 2 é o MOBA da Valve,
+        empresa dona da Steam, baseado em um antigo mod de Warcraft 3, o Defense
+        of the Ancients (DotA) no qual os jogadores devem se enfrentar online em
+        acirradas batalhas entre equipes.
+      </p>
+      <img
+        src="./assets/dota2_social.jpg"
+        style="height: 40%; width: 40%"
+        alt="imagem do jogo"
+        class="br-5"        
+      />
+    </div>
+    <br />
     <h2>Isso e Dota 2</h2>
     <iframe
       width="560"
@@ -45,6 +58,6 @@
       text-align: center;
     "
   >
-  <a href="https://www.dota2.com/home">Aqui tem o link da pagina do jogo </a>
+    <a href="https://www.dota2.com/home">Aqui tem o link da pagina do jogo </a>
   </footer>
 </html>
