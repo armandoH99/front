@@ -17,7 +17,14 @@
     color: green; 
  }
 
-
+ .container{
+        display:flex;
+        justify-content: space-around;
+ }
+ 
 .br-5{
     border-radius: 5px;
 }
+/* #assunto {
+    width: 100%;
+} */
