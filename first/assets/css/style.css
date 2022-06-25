@@ -20,6 +20,10 @@
  .container{
         display:flex;
         justify-content: space-around;
+        align-items: center;        
+ }
+ .mapaSub {
+    text-align: center;
  }
  
 .br-5{
